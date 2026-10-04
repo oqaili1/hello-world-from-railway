@@ -1,6 +1,6 @@
 from kafka import KafkaProducer, KafkaConsumer
 
-BOOTSTRAP = "centerbeam.proxy.rlwy.net:9092"
+BOOTSTRAP = "centerbeam.proxy.rlwy.net:32605"
 
 # Producer: send a test message
 producer = KafkaProducer(bootstrap_servers=BOOTSTRAP)
